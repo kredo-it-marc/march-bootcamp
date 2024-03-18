@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+<body>
+    <h1>Login</h1>
+    <!-- action is WHERE your data will be taken to when the user clicks submit -->
+    <!-- method is HOW your data will be taken to your action -->
+    <form action="" method="">
+        <label for="username">Username</label>
+        <input type="text" name="username" id="username"> <!-- text input -->
+        <!-- NOTE: make sure to add name and id to input elements -->
+        <!-- for attribute in label and id attribute in input should be the same. -->
+        
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password"> <!--password input-->
+        
+        <!-- submit button -->
+        <!-- option 1 -->
+        <input type="submit" value="Login" name="btn_login">
+        <!-- value becomes the display text of the button. No need for an ID, only name.-->
+
+        <!-- option 2 -->
+        <button type="submit" name="btn_login">Login</button>
+    </form>
+</body>
+</html>

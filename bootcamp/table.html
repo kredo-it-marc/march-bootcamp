@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Table</title>
+</head>
+<body>
+    <h1>Table</h1>
+    <!-- add border="1" to add borders -->
+    <table border="1">
+        <thead>
+            <!-- for the headings -->
+            <tr><!-- table row -> creates a row inside the table-->
+                <th>Heading 1</th><!-- header cell -> for the heading-->
+                <th>Heading 2</th>
+                <th>Heading 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- for the table contents -->
+            <tr>
+                <td>Data 1</td><!--table data-->
+                <td>Data 2</td>
+                <td>Data 3</td>
+            </tr>
+            <tr>
+                <td>Data 1</td>
+                <td>Data 2</td>
+                <td>Data 3</td>
+            </tr>
+            <tr>
+                <td>Data 1</td>
+                <td>Data 2</td>
+                <td>Data 3</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <hr>
+    <h1>Colspan</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th colspan="2">Contact No.</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Bill</td>
+                <td>111-111</td>
+                <td>222-222</td>
+            </tr>
+            <tr>
+                <td>Harry</td>
+                <td>333-333</td>
+                <td>333-333</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <hr>
+    <h1>Rowspan</h1>
+
+    <table border="1">
+        <tbody>
+            <tr>
+                <th>Name</th>
+                <td>Bill</td>
+                <td>Harry</td>
+            </tr>
+            <tr>
+                <th rowspan="2">Contact No.</th>
+                <td>111-111</td>
+                <td>333-333</td>
+            </tr>
+            <tr>
+                <td>222-222</td>
+                <td>444-444</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
