@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Activity 1</title>
+    <style>
+		table {
+			border: 2px solid black;
+			text-align: center;
+			border-collapse: separate;
+			font-family: sans-serif;
+		}
+
+        th {
+			color: white;
+            background-color: #fc8a8a;
+        }
+
+		tr.odd {
+            background-color: #ffd4b3;
+
+		}
+
+		tr.even {
+            background-color: #ffffff;
+		}
+
+        /*
+		ADVANCE
+
+		tr:nth-child(odd) {
+            background-color: #ffd4b3;
+        }
+		
+		tr:nth-child(even) {
+            background-color: #ffffff;
+        }
+		*/
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+				<th>ID NO.</th>
+				<th>PHOTO</th>
+				<th>NAME</th>
+				<th>AGE</th>
+				<th>EMAIL</th>
+				<th>ADDRESS</th>
+			</tr>
+        </thead>
+        <tbody>
+			<tr class="odd">
+				<td>1</td>
+				<td>
+					<img src="assets/images/image.jpeg" alt="Alice" width="30px" height="30px">
+				</td>
+				<td>Alice</td>
+				<td>26</td>
+				<td><a href="#">alice@email.com</a></td>
+				<td>35553 KENAI SPUR HIGHWAY</td>
+			</tr>
+			<tr class="even">
+				<td>2</td>
+				<td>
+					<img src="assets/images/image.jpeg" alt="Candice" width="30px" height="30px">
+				</td>
+				<td>Candice</td>
+				<td>26</td>
+				<td><a href="#">candice@email.com</a></td>
+				<td>1616 GADSDEN HWY</td>
+			</tr>
+            <tr class="odd">
+				<td>3</td>
+				<td>
+					<img src="assets/images/image.jpeg" alt="Troy" width="30px" height="30px">
+				</td>
+				<td>Troy</td>
+				<td>26</td>
+				<td>N/A</td>
+				<td>35553 9256 PARKWAY E</td>
+			</tr>
+            <tr class="even">
+				<td>4</td>
+				<td>
+					<img src="assets/images/image.jpeg" alt="Gab" width="30px" height="30px">
+				</td>
+				<td>Gab</td>
+				<td>26</td>
+				<td>N/A</td>
+				<td>AVALON AVE.</td>
+			</tr>
+            <tr class="odd">
+				<td>5</td>
+				<td>
+					<img src="assets/images/image.jpeg" alt="John" width="30px" height="30px">
+				</td>
+				<td>John</td>
+				<td>26</td>
+				<td><a href="#">john@email.com</a></td>
+				<td>3006 E HIGHLAND</td>
+			</tr>
+		</tbody>
+    </table>
+</body>
+</html>
