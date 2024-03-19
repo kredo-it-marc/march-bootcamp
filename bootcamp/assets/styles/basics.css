@@ -1,0 +1,50 @@
+/* External CSS */
+
+/* UNIVERSAL SELECTOR -> targets all elements in the page*/
+*{
+    border: 1px dotted darkblue;
+}
+
+/* ELEMENT SELECTOR */
+h2{
+    color: white;
+    background-color: seagreen;
+}
+
+/* CLASS SELECTOR */
+.text-center{
+    text-align: center;
+}
+
+/* ID SELECTOR */
+#par-1{
+    background-color: black;
+    color: white;
+    font-style: italic;
+}
+
+h3{
+    color: red;
+}
+
+h3{
+    color: blue;
+}
+
+h4.style-1{
+    color: darkblue;
+}
+
+h4{
+    color: darkgoldenrod;
+}
+
+/* style <li> inside <ul> */
+/* parent child */
+ul li{
+    color: darkgreen;
+}
+
+.list-style-1 li{
+    font-style: italic;
+}

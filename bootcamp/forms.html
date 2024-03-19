@@ -11,20 +11,92 @@
     <!-- method is HOW your data will be taken to your action -->
     <form action="" method="">
         <label for="username">Username</label>
-        <input type="text" name="username" id="username"> <!-- text input -->
+        <input type="text" name="username" id="username" required placeholder="@username"> <!-- text input -->
         <!-- NOTE: make sure to add name and id to input elements -->
         <!-- for attribute in label and id attribute in input should be the same. -->
         
         <label for="password">Password</label>
-        <input type="password" name="password" id="password"> <!--password input-->
-        
+        <input type="password" name="password" id="password" required placeholder="you password here"> <!--password input-->
+        <!-- input fields should not be empty if it has required attribute -->
+        <!-- placeholder displays a hint/instruction/sample value that the user could enter in the input field -->
+
         <!-- submit button -->
         <!-- option 1 -->
         <input type="submit" value="Login" name="btn_login">
         <!-- value becomes the display text of the button. No need for an ID, only name.-->
+    </form>
 
+    <hr>
+    <h1>Other Details</h1>
+    <form action="" method="">
+        <label for="age">Age</label>
+        <input type="number" name="age" id="age" min="18" max="80"><!--number input-->
+        <!-- 
+            FORM VALIDATORS
+            -it checks the user input
+
+            min - sets the minimum value your number input could accept
+            max - sets the maximum value your number input could accept
+
+            required is also a form validator
+        -->
+        <br><br>
+        <label for="birthday">Birthday</label>
+        <input type="date" name="birthday" id="birthday"><!--date input-->
+
+        <br><br>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email"><!--email input-->
+
+        <br><br>
+        <label for="bio">Enter Bio / Description</label>
+        <textarea name="bio" id="bio" cols="30" rows="10"></textarea>
+
+        <br><br>
+        <label for="gender">Gender</label>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="male">Male</label>
+        
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="female">Female</label>
+        <!-- to group radio buttons, it should have the same name. Also, each radio button will have a value attribute and its value is different from each other-->
+        <br><br>
+        <label for="hobby">Select your hobby/ies:</label>
+        <input type="checkbox" name="hobby" id="hiking" value="hiking">
+        <label for="hiking">Hiking</label>
+
+        <input type="checkbox" name="hobby" id="baking" value="baking">
+        <label for="baking">Baking</label>
+
+        <input type="checkbox" name="hobby" id="fishing" value="fishing">
+        <label for="fishing">Fishing</label>
+
+        <br><br>
+        <label for="device">Select a device:</label>
+        <!-- Dropdown list box -->
+        <select name="device" id="device">
+            <option value="mobile">Mobile Phone</option>
+            <option value="tablet">Tablet Device</option>
+            <option value="laptop">Laptop Computer</option>
+            <option value="desktop">Desktop Computer</option>
+        </select>
+
+        <br><br>
+        <label for="device">Select a device:</label>
+        <!-- multiple select box -->
+        <select name="device" id="device" multiple>
+            <option value="mobile">Mobile Phone</option>
+            <option value="tablet">Tablet Device</option>
+            <option value="laptop">Laptop Computer</option>
+            <option value="desktop">Desktop Computer</option>
+        </select>
+        <br><br>
+        <label for="profile-photo">Profile Photo</label>
+        <input type="file" name="profile_photo" id="profile-photo">
+        <br><br>
+        <!-- submit button -->
         <!-- option 2 -->
-        <button type="submit" name="btn_login">Login</button>
+        <button type="submit" name="btn_update">Update</button>
     </form>
 </body>
 </html>
