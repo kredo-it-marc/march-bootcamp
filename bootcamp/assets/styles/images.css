@@ -1,0 +1,135 @@
+.w-50px{
+    width: 50px;
+}
+
+.w-50-percent{
+    width: 50%;
+}
+
+.h-500px{
+    height: 500px;
+}
+
+.h-25-percent{
+    height: 25%;
+}
+
+.h-1000px{
+    height: 1000px;
+    border: 1px solid black;
+}
+
+.bg-sample{
+    height: 500px;
+    background-image: url(../images/pexels-jayson-delos-santos-1139541.jpg);
+}
+
+.bg-no-repeat{
+    background-image: url(../images/dot.jpg);
+    background-repeat: no-repeat;
+}
+
+.bg-repeat-x{
+    background-image: url(../images/dot.jpg);
+    background-repeat: repeat-x;
+}
+
+.bg-repeat-y{
+    background-image: url(../images/dot.jpg);
+    background-repeat: repeat-y;
+}
+.bg-repeat{
+    background-image: url(../images/dot.jpg);
+    background-repeat: repeat;
+}
+
+.bg-cover{
+    background-image: url(../images/dot.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-contain{
+    background-image: url(../images/dot.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.bg-200px-300px{
+    background-image: url(../images/dot.jpg);
+    background-repeat: no-repeat;
+    background-size: 200px 300px;
+}
+
+.bg-left-top{
+    background-image: url(../images/dot.jpg);
+    background-repeat: no-repeat;
+    /* background-position: horizontal-position vertical-position; */
+    /* background-position: left/center/right top/center/bottom; */
+    background-position: left top;
+}
+
+.bg-center-top{
+    background-image: url(../images/dot.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.bg-right-top{
+    background-image: url(../images/dot.jpg);
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+.bg-left-center{
+    background-image: url(../images/dot.jpg);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.bg-center-center{
+    background-image: url(../images/dot.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.bg-right-center{
+    background-image: url(../images/dot.jpg);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+.bg-left-bottom{
+    background-image: url(../images/dot.jpg);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+
+.bg-center-bottom{
+    background-image: url(../images/dot.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+.bg-right-bottom{
+    background-image: url(../images/dot.jpg);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.bg-fixed{
+    background-image: url(../images/pexels-jayson-delos-santos-1139541.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bg-scroll{
+    background-image: url(../images/dot.jpg);
+    background-attachment: scroll; 
+}
+
+.bg-shorthand
+{
+    /* background: bg-color bg-img bg-repeat bg-attachment bg-position; */
+    background: darkred url(../images/pexels-vincent-gerbouin-1174732.jpg) no-repeat fixed center;
+}

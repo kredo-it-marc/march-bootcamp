@@ -77,3 +77,84 @@
 .font-style-oblique{
     font-style: oblique;
 }
+
+.text-lowercase{
+    text-transform: lowercase;
+}
+
+.text-uppercase{
+    text-transform: uppercase;
+}
+
+.text-capitalize{
+    text-transform: capitalize;
+}
+
+.text-overline{
+    text-decoration: overline;
+}
+
+.text-underline{
+    text-decoration: underline;
+}
+
+.text-line-through{
+    text-decoration: line-through;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.text-shadow{
+    text-shadow: -5px -6px 3px darkred;
+}
+
+.text-indent-50px{
+    text-indent: 50px;
+}
+
+.text-indent-50-percent{
+    text-indent: 50%;
+}
+
+.text-indent-5em{
+    text-indent: 5em;
+}
+
+.letter-spacing-5px{
+    letter-spacing: 5px;
+}
+
+.letter-spacing-10px{
+    letter-spacing: 10px;
+}
+
+.letter-spacing-15px{
+    letter-spacing: 15px;
+}
+
+.letter-spacing-20px{
+    letter-spacing: 20px;
+}
+
+.word-spacing-5px{
+    word-spacing: 5px;
+}
+.word-spacing-10px{
+    word-spacing: 10px;
+}
+.word-spacing-15px{
+    word-spacing: 15px;
+}
+.word-spacing-20px{
+    word-spacing: 20px;
+}
