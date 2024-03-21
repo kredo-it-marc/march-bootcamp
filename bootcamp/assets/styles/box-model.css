@@ -1,0 +1,144 @@
+div{
+    width:100%;
+    height: 250px;
+    border: 2px solid darkblue;
+}
+
+.bg-blue{
+    background-color: darkblue;
+}
+
+.m-15px{
+    margin: 15px;
+}
+
+.m-15px-20px{
+    margin: 15px 20px;
+}
+
+.m-15px-20px-25px{
+    margin: 15px 20px 25px;
+}
+
+.m-15px-20px-25px-30px{
+    margin: 15px 20px 25px 30px;
+}
+
+.margin-top-15px{
+    margin-top: 15px;
+}
+.margin-right-15px{
+    margin-right: 15px;
+}
+.margin-bottom-15px{
+    margin-bottom: 15px;
+}
+.margin-left-15px{
+    margin-left: 15px;
+}
+
+.p-15px{
+    padding: 15px;
+}
+
+.p-15px-30px{
+    padding: 15px 30px;
+}
+
+.p-15px-30px-40px{
+    padding: 15px 30px 40px;
+}
+
+.p-15px-30px-40px-50px{
+    padding: 15px 30px 40px 50px;
+}
+
+.padding-top-15px{
+    padding-top: 15px;
+}
+
+.padding-right-15px{
+    padding-right: 15px;
+}
+
+.padding-bottom-15px{
+    padding-bottom: 15px;
+}
+
+.padding-left-15px{
+    padding-left: 15px;
+}
+
+.border-solid{
+    border: 5px solid tomato;
+}
+
+.border-dotted{
+    border: 5px dotted darkgoldenrod;
+}
+
+.border-dashed{
+    border: 5px dashed purple;
+}
+
+.border-double{
+    border: 5px double darkred;
+}
+
+.border-groove{
+    border: 5px groove orangered;
+}
+
+.border-ridge{
+    border: 5px ridge olivedrab;
+}
+
+.border-inset{
+    border: 5px inset darkslategray;
+}
+
+.border-outset{
+    border: 5px outset yellow;
+}
+
+.border-radius
+{
+    border: 5px solid black;
+    border-radius: 100px; /* defines the sharpness of the corners */
+}
+
+.border-top{
+    border-top: 3px solid black;
+}
+.border-right{
+    border-right: 3px solid black;
+}
+
+.border-bottom{
+    border-bottom: 3px solid black;
+}
+
+.border-left{
+    border-left: 3px solid black;
+}
+.overflow-hide{
+    overflow: hidden;
+}
+
+.overflow-scroll{
+    overflow: scroll;
+}
+
+
+.box-shadow{
+    box-shadow: 5px 5px 6px 10px darkslategray;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}

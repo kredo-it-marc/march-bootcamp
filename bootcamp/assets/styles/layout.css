@@ -1,0 +1,95 @@
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+
+.float-none{
+    float: none;
+}
+
+.clear-left{
+    clear: left;
+}
+
+.clear-right{
+    clear: right;
+}
+
+.clear-both{
+    clear: both;
+}
+
+.clear-none{
+    clear: none;
+}
+
+.position-static{
+    position: static;
+    /* positional properties(top, right, bottom, left) and z-index will not work if position is set to static */
+    left: 50%; /*will not work because position is static*/
+}
+/* All elements uses position static by default */
+/* positional properties: top,left,right, bottom */
+
+.position-relative{
+    position: relative;
+    /*positional properties will work*/
+    left: -50%;
+}
+
+.position-absolute{
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+
+.position-fixed{
+    /* position: fixed; */
+    bottom: 0;
+    right: 0;
+}
+
+
+/*positional properties(top, bottom, left, right) and z-index will only for for position relative, absolute and fixed. NOT FOR static */
+
+/* BLOCK ELEMENTS: you can set the width, height, margin on all sides */
+/* INLINE ELEMENTS: you can only set margin left and right */
+.display-inline{
+    /* element behave like an inline element */
+    display: inline;
+    width: 50%;
+    height: 100px;
+}
+
+.display-block{
+    /* element behave like a block element */
+    display: block;
+    width: 50%;
+    height: 100px;
+}
+.display-inline-block{
+    /* element behave like an inline element but with block properties*/
+    display: inline-block;
+    width: 50%;
+    height: 200px;
+    margin: 20px;
+}
+
+.display-none{
+    /* none hides the element from the page */
+    display: none;
+}
+
+.parent{
+    position: relative;
+    z-index: -2;
+}
+
+.img-absolute{
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
