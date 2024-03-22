@@ -1,0 +1,63 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* CSS RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Oswald', sans-serif;
+}
+
+p{
+    font-family: 'Raleway', sans-serif;
+}
+
+.wrapper{
+    width: 100%;
+    margin: auto;
+}
+
+/* navigation bar */
+.nav{
+    padding: 5px;
+    width: 85%;
+    margin: 1em auto;
+    overflow: auto;
+}
+
+.nav h1{
+    width: 50%;
+    float: left;
+}
+
+.nav h1 a{
+    color: #96746b;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.nav ul{
+    width: 50%;
+    float: left;
+    text-align: right;
+    padding-top: 1em;
+}
+
+.nav ul li{
+    display: inline-block;
+    margin-left: 1em;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: #312a26;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
